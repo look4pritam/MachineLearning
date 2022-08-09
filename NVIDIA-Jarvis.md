@@ -7,3 +7,7 @@
 ## [Docker-CE](Docker-CE.md)
 
 ## [NGC CLI.md](NGC-CLI.md)
+
+```sh
+ngc registry resource download-version "nvidia/jarvis/jarvis_quickstart:1.2.1-beta"
+```
