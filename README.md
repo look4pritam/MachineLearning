@@ -25,7 +25,6 @@ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.1.32.vbox-
 ## [VirtualBox - Shared Folders](https://gist.github.com/estorgio/0c76e29c0439e683caca694f338d4003)
 
 - Create a shared folder 'installers'.
-- 
 - Devices -> Insert Guest Additions CD image.
 - Mount a CD drive.
 
@@ -51,5 +50,20 @@ sudo /media/cdrom/./VBoxLinuxAdditions.run
 
 ```sh
 sudo usermod -aG vboxsf $(whoami)
+```
+
+## Docker-CE
+
+```sh
+sudo apt  install curl
+
+curl https://get.docker.com | sh \
+  && sudo systemctl --now enable docker
+```
+
+```sh
+sudo groupadd docker
+
+sudo usermod -aG docker $USER
 ```
 
