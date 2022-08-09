@@ -43,3 +43,5 @@ sudo /media/cdrom/./VBoxLinuxAdditions.run
 ```sh
 sudo usermod -aG vboxsf $(whoami)
 ```
+
+- Reboot the machine.
