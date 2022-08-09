@@ -12,4 +12,6 @@
 
 - [Python-3](Python-3.md)
 
+- [NVIDIA TensorRT](NVIDIA-TensorRT.md)
+
 
