@@ -1,7 +1,3 @@
-# NVIDIA Jarvis
+# Machine Learning
 
-## [VirtualBox](VirtualBox.md)
-
-## [Ubuntu 20.04](Ubuntu-20.04.md)
-
-## [Docker-CE](Docker-CE.md)
+## [NVIDIA Jarvis](NVIDIA-Jarvis.md)
